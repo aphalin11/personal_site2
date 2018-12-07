@@ -1,0 +1,136 @@
+.page-header { 
+    margin-left: 3%; 
+    height: 7%;
+}
+
+.container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-gap: 5%;
+    row-gap: 45%;
+    height: 100px;
+}
+
+.icon { 
+    font-size: 500%;
+    margin-left: 7%; 
+}
+
+.b h4, .b .icon { 
+    text-align: center; 
+}
+
+.box_data { 
+    -ms-grid-column:1; 
+        grid-column-start:1; 
+    grid-column-end: 2; 
+    -ms-grid-row: 1; 
+        grid-row-start:1; 
+}
+
+.box_data .icon { 
+    margin-left: 30%;
+}
+
+.box_plant { 
+    -ms-grid-column:2; 
+        grid-column-start:2; 
+    grid-column-end: 3; 
+    -ms-grid-row: 1;
+        grid-row-start:1; 
+}
+
+.box_plant .icon { 
+    margin-left: 35%;
+}
+
+.box_debate { 
+    -ms-grid-column:3; 
+        grid-column-start:3; 
+    grid-column-end: 4; 
+    -ms-grid-row:1; 
+        grid-row-start:1; 
+}
+
+.box_debate .icon { 
+    margin-left: 30%; 
+}
+
+.box_game { 
+    -ms-grid-column:4; 
+        grid-column-start:4; 
+    grid-column-end: 5; 
+    -ms-grid-row:1; 
+        grid-row-start:1; 
+}
+
+.box_game .icon { 
+    margin-left: 30%; 
+}
+
+.head_summary {  
+        -ms-grid-row:2; 
+            grid-row-start:2; 
+        -ms-grid-column:3; 
+            grid-column-start:3; 
+        grid-column-end: 5; 
+}
+
+.selfie { 
+    -ms-grid-row:2; 
+        grid-row-start:2; 
+    -ms-grid-column:1; 
+        grid-column-start:1; 
+    grid-column-end: 3; 
+    width: 100%;
+    height: auto;
+}
+
+.p1 { 
+    font-size: 18px;
+}
+
+#first_line { 
+    color: red; 
+    font-weight: bold; 
+}
+
+.head_summary h3 { 
+    font-weight: bold;
+}
+
+.p2 { 
+    font-size: 18px; 
+}
+
+.contact { 
+    color: red; 
+    font-weight: bold; 
+}
+
+.head_summary a{ 
+    color: blue; 
+}
+
+.data_jumbo { 
+    -ms-grid-row: 3; 
+        grid-row-start: 3; 
+    -ms-grid-column:1; 
+        grid-column-start:1; 
+    grid-column-end: 5; 
+}
+
+.fig_data img { 
+    width: 50%;
+    height: auto; 
+    margin-left: 20%; 
+}
+
+.fig_data figcaption { 
+    margin-left: 25%; 
+    font-size: 16px; 
+}
